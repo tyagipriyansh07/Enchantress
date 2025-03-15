@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/proear.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    {{>navbar}}
+
+    <br />
+
+    <div class="main">
+      <div class="imag">
+        <div class="prod">
+          <img class="img1" />
+          <img class="img2" />
+          <img class="img3" />
+        </div>
+        <img class="main_img" />
+      </div>
+
+      <div class="det">
+        <div class="name1"></div>
+        <div class="sdesc"></div>
+        <div class="desc"></div>
+        <br />
+        <div class="price"></div>
+        <div style="display: flex">
+          <input type="checkbox" name="" id="" />
+          <h4>Add Gift Wrap to your Order (Rs. 50)</h4>
+        </div>
+        <a href="cart">
+        <button class="but">ADD TO CART</button>
+        </a>
+        <br />
+        <br />
+        <a href="check">
+        <button class="but1">BUY IT NOW</button>
+        </a>
+        <br />
+
+        <div class="stk">
+          <img src="images/returns_small.webp" alt="" />
+          <img src="images/certificate_small.webp" alt="" />
+          <img src="images/Female.webp" alt="" />
+          <img src="images/warranty_icon.webp" alt="" />
+        </div>
+        <br />
+        <br />
+        <br />
+      </div>
+      <br />
+      <br />
+    </div>
+    
+    {{>footer}}
+  </body>
+</html>
+
+<script src="/js/earing.js"></script>
